@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kolkata Guide</string>
+
+    <string-array name="tab_names">
+        <item>Heritage</item>
+        <item>Park</item>
+        <item>Museum</item>
+        <item>Religious</item>
+    </string-array>
+
+    <string-array name="heritage_places_name">
+        <item>Victoria Memorial</item>
+        <item>Jorasanko Thakur Bari</item>
+        <item>Shaheed Minar</item>
+        <item>Princep Ghat</item>
+        <item>Alipore Zoological Garden</item>
+    </string-array>
+
+    <string-array name="park_places_name">
+        <item>Nicco Park</item>
+        <item>Eco Park</item>
+        <item>Rabindra Sarobar</item>
+        <item>Central Park</item>
+        <item>Maidan</item>
+    </string-array>
+
+    <string-array name="museum_places_name">
+        <item>Indian Museum</item>
+        <item>Science City</item>
+        <item>Calcutta Police Museum</item>
+        <item>Birla Industrial and Technological Museum</item>
+        <item>Asiatic Society</item>
+    </string-array>
+
+    <string-array name="religious_places_name">
+        <item>Kalighat</item>
+        <item>Dakshineshwar</item>
+        <item>Nakhoda Masjid</item>
+        <item>St. Pauls Cathedral</item>
+        <item>Parashnath Jain Mandir</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
