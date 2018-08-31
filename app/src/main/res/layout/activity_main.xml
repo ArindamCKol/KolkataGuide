@@ -13,6 +13,8 @@
         app:tabSelectedTextColor="@android:color/white"
         app:tabIndicatorColor="@android:color/white"
         app:tabTextColor="@android:color/black"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
