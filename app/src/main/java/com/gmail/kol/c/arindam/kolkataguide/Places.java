@@ -6,19 +6,21 @@ import android.os.Parcelable;
 public class Places implements Parcelable {
     private String placesName;
     private int placesImageID;
+    private String placesAddress;
+    private String placesTiming;
 
-    public Places(String placesName) {
-        this.placesName = placesName;
-        this.placesImageID = 0;
-    }
-
-    public Places(String placesName, int placesImageID) {
+    public Places(String placesName, int placesImageID, String placesAddress, String placesTiming) {
         this.placesName = placesName;
         this.placesImageID = placesImageID;
+        this.placesAddress = placesAddress;
+        this.placesTiming = placesTiming;
     }
 
     protected Places (Parcel in) {
         placesName = in.readString();
+        placesImageID = in.readInt();
+        placesAddress = in.readString();
+        placesTiming = in.readString();
     }
 
     public static final Creator<Places> CREATOR = new Creator<Places>() {
@@ -41,6 +43,10 @@ public class Places implements Parcelable {
         return placesImageID;
     }
 
+    public String getPlacesAddress() { return placesAddress; }
+
+    public String getPlacesTiming() { return placesTiming; }
+
     @Override
     public int describeContents() {
         return 0;
@@ -49,5 +55,8 @@ public class Places implements Parcelable {
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(placesName);
+        parcel.writeInt(placesImageID);
+        parcel.writeString(placesAddress);
+        parcel.writeString(placesTiming);
     }
 }

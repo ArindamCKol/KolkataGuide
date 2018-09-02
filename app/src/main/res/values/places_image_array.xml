@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="heritage_places_image">
+        <item>@drawable/victoria_memorial</item>
+        <item>@drawable/jorasanko_thakur_bari</item>
+        <item>@drawable/shaheed_minar</item>
+        <item>@drawable/princep_ghat</item>
+        <item>@drawable/alipore_zoological_garden</item>
+    </array>
+
+    <array name="park_places_image">
+        <item>@drawable/nicco_park</item>
+        <item>@drawable/eco_park</item>
+        <item>@drawable/rabindra_sarobar</item>
+        <item>@drawable/central_park</item>
+        <item>@drawable/maidan</item>
+    </array>
+
+    <array name="museum_places_image">
+        <item>@drawable/indian_museum</item>
+        <item>@drawable/science_city</item>
+        <item>@drawable/calcutta_police_museum</item>
+        <item>@drawable/birla_industrial_museum</item>
+        <item>@drawable/asiatic_society</item>
+    </array>
+
+    <array name="religious_places_image">
+        <item>@drawable/kalighat</item>
+        <item>@drawable/dakshineswar</item>
+        <item>@drawable/nakhoda_masjid</item>
+        <item>@drawable/st_pauls_cathedral</item>
+        <item>@drawable/parashnath_jain_temple</item>
+    </array>
+</resources>

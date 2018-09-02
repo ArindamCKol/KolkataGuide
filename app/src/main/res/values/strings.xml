@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Kolkata Guide</string>
+    <string name="address">Address : %s</string>
+    <string name="timing">Timing : %s</string>
 
     <string-array name="tab_names">
         <item>Heritage</item>
@@ -39,5 +41,4 @@
         <item>St. Pauls Cathedral</item>
         <item>Parashnath Jain Mandir</item>
     </string-array>
-
 </resources>

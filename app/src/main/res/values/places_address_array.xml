@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heritage_places_address">
+        <item>1, Queens Way, Kolkata, West Bengal 700071</item>
+        <item>Ganesh Talkies, 267, Rabindra Sarani, Singhi Bagan, Jorasanko, Kolkata, West Bengal 700007</item>
+        <item>Dharmtalla bus stop, Dufferin Road, Kolkata, West Bengal 700069</item>
+        <item>Fort William, Hastings, Kolkata, West Bengal 700021</item>
+        <item>2, Alipore Rd, Alipore, Kolkata, West Bengal 700027</item>
+    </string-array>
+
+    <string-array name="park_places_address">
+        <item>Salt Lake Bypass, HM Block, Sector IV, Salt Lake City, Kolkata, West Bengal 700106</item>
+        <item>Major Arterial Road(South-East), Action Area II, Newtown, Kolkata, West Bengal 700156</item>
+        <item>Dhakuria, Rabindra Sarobar, Kolkata, West Bengal 700029</item>
+        <item>Fourth Ave, Central Park, Sector III, Salt Lake City, Kolkata, West Bengal 700064</item>
+        <item>Maidan, Kolkata, West Bengal</item>
+    </string-array>
+
+    <string-array name="museum_places_address">
+        <item>27, Jawaharlal Nehru Rd, New Market Area, Dharmatala, Kolkata, West Bengal 700016</item>
+        <item>J.B.S Haldane Avenue, Mirania Gardens, East Topsia, Kolkata, West Bengal 700046</item>
+        <item>113, Acharya Prafulla Chandra Roy Road, Kolkata, West Bengal 700009</item>
+        <item>19A, Gurusaday Dutta Rd, Beck Bagan, Ballygunge, Kolkata, West Bengal 700019</item>
+        <item>1, Park St, Kolkata, West Bengal 700016</item>
+    </string-array>
+
+    <string-array name="religious_places_address">
+        <item>Anami Sangha, Kalighat, Kolkata, West Bengal 700026</item>
+        <item>Dakshineswar, Kolkata, West Bengal 700076</item>
+        <item>Rabindra Sarani, Chowringhee North, Bow Barracks, Kolkata, West Bengal 700073</item>
+        <item>Chowringhee, Kolkata, West Bengal 700071</item>
+        <item>Indra Biswas Rd, Saktinagar, Belgachia, Kolkata, West Bengal 700037</item>
+    </string-array>
+</resources>

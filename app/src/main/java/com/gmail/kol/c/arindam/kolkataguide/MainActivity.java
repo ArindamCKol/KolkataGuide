@@ -1,6 +1,7 @@
 package com.gmail.kol.c.arindam.kolkataguide;
 
 import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -48,10 +49,14 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
         String [] tempNames = res.getStringArray(R.array.heritage_places_name);
+        TypedArray tempImageID = res.obtainTypedArray(R.array.heritage_places_image);
+        String [] tempAddress = res.getStringArray(R.array.heritage_places_address);
+        String [] tempTiming = res.getStringArray(R.array.heritage_places_timing);
 
         for(int i=0; i<tempNames.length; i++) {
-            tempPlaces.add(new Places(tempNames[i]));
+            tempPlaces.add(new Places(tempNames[i],tempImageID.getResourceId(i,R.drawable.ic_launcher_background),tempAddress[i],tempTiming[i]));
         }
+        tempImageID.recycle();
         return tempPlaces;
     }
 
@@ -59,10 +64,14 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
         String [] tempNames = res.getStringArray(R.array.park_places_name);
+        TypedArray tempImageID = res.obtainTypedArray(R.array.park_places_image);
+        String [] tempAddress = res.getStringArray(R.array.park_places_address);
+        String [] tempTiming = res.getStringArray(R.array.park_places_timing);
 
         for(int i=0; i<tempNames.length; i++) {
-            tempPlaces.add(new Places(tempNames[i]));
+            tempPlaces.add(new Places(tempNames[i],tempImageID.getResourceId(i,R.drawable.ic_launcher_background),tempAddress[i],tempTiming[i]));
         }
+        tempImageID.recycle();
         return tempPlaces;
     }
 
@@ -70,10 +79,14 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
         String [] tempNames = res.getStringArray(R.array.museum_places_name);
+        TypedArray tempImageID = res.obtainTypedArray(R.array.museum_places_image);
+        String [] tempAddress = res.getStringArray(R.array.museum_places_address);
+        String [] tempTiming = res.getStringArray(R.array.museum_places_timing);
 
         for(int i=0; i<tempNames.length; i++) {
-            tempPlaces.add(new Places(tempNames[i]));
+            tempPlaces.add(new Places(tempNames[i],tempImageID.getResourceId(i,R.drawable.ic_launcher_background),tempAddress[i],tempTiming[i]));
         }
+        tempImageID.recycle();
         return tempPlaces;
     }
 
@@ -81,10 +94,14 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
         String [] tempNames = res.getStringArray(R.array.religious_places_name);
+        TypedArray tempImageID = res.obtainTypedArray(R.array.religious_places_image);
+        String [] tempAddress = res.getStringArray(R.array.religious_places_address);
+        String [] tempTiming = res.getStringArray(R.array.religious_places_timing);
 
         for(int i=0; i<tempNames.length; i++) {
-            tempPlaces.add(new Places(tempNames[i]));
+            tempPlaces.add(new Places(tempNames[i],tempImageID.getResourceId(i,R.drawable.ic_launcher_background),tempAddress[i],tempTiming[i]));
         }
+        tempImageID.recycle();
         return tempPlaces;
     }
 }

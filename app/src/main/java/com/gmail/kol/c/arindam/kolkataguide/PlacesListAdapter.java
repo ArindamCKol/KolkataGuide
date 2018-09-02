@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -23,9 +24,11 @@ public class PlacesListAdapter extends ArrayAdapter {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.places_card, null);
-        TextView nameText = view.findViewById(R.id.place_name);
+        TextView placeNameText = view.findViewById(R.id.place_name);
+        ImageView placeImage = view.findViewById(R.id.place_image);
 
-        nameText.setText(placesList.get(position).getPlacesName());
+        placeNameText.setText(placesList.get(position).getPlacesName());
+        placeImage.setImageResource(placesList.get(position).getPlacesImageID());
 
         return view;
     }

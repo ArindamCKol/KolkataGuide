@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heritage_places_timing">
+        <item>Mon Closed Tue-Sun 10AM–6PM</item>
+        <item>Mon Closed Tue-Sun 10:30AM–5PM</item>
+        <item>Mon-Sun 10AM–5PM</item>
+        <item>Mon-Sun 24 HRS</item>
+        <item>Thu Closed Fri-Wed 9AM-5PM</item>
+    </string-array>
+
+    <string-array name="park_places_timing">
+        <item>Mon-Sun 10:30AM–6:30PM</item>
+        <item>Sun 12PM-8:30PM Mon-Sat 2:30PM-8:30PM</item>
+        <item>Mon-Sun 24 HRS</item>
+        <item>Mon-Sun 10AM–5:30PM</item>
+        <item>Mon-Sun 24 HRS</item>
+    </string-array>
+
+    <string-array name="museum_places_timing">
+        <item>Mon Closed Tue-Sun 10AM–6PM</item>
+        <item>Mon-Sun 9AM-8PM</item>
+        <item>Mon Closed Tue-Sun 10AM–5PM</item>
+        <item>Mon-Sun 10AM–6PM</item>
+        <item>Sat-Sun Closed Mon-Fri 10AM–6PM</item>
+    </string-array>
+
+    <string-array name="religious_places_timing">
+        <item>Mon-Sun 4AM-10:30PM</item>
+        <item>Mon-Sun 5AM-8PM</item>
+        <item>Mon-Sun 6AM-8PM</item>
+        <item>Mon-Sun 10AM-6PM</item>
+        <item>Mon-Sun 6AM-7PM</item>
+    </string-array>
+</resources>
