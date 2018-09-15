@@ -3,6 +3,9 @@ package com.gmail.kol.c.arindam.kolkataguide;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+// Places class to hold information about place. It implement Parcelable to enable to send
+// information to activities.
+
 public class Places implements Parcelable {
     private String placesName;
     private int placesImageID;

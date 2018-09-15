@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- string arrays of all places timing -->
 <resources>
     <string-array name="heritage_places_timing">
         <item>Mon Closed Tue-Sun 10AM–6PM</item>

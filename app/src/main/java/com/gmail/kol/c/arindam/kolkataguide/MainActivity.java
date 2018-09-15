@@ -11,17 +11,19 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<String> tabNames = new ArrayList<>();
-    private ArrayList<ArrayList<Places>> placesList = new ArrayList<>();
+    private ArrayList<String> tabNames = new ArrayList<>(); // array list of tab names
+    private ArrayList<ArrayList<Places>> placesList = new ArrayList<>(); // array list of array list for places type wise
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //get information from xml resources
         getTabNames();
         getPlaces();
 
+        //initialise tab & view pager
         ViewPager viewPager = findViewById(R.id.viewpager);
         TabLayout tabLayout = findViewById(R.id.tabs);
         PlacesPagerAdapter adapter = new PlacesPagerAdapter(getSupportFragmentManager(), tabNames, placesList);
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    // Get tab names from resource
     public void getTabNames () {
         Resources res = getResources();
         String [] tempNames = res.getStringArray(R.array.tab_names);
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Create a array list of array list for different types of places
     public void getPlaces () {
         placesList.add(getHeritagePlaces());
         placesList.add(getParkPlaces());
@@ -45,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         placesList.add(getReligiouPlaces());
     }
 
+    //get details of heritage places from different resource arrays
     public ArrayList<Places> getHeritagePlaces () {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
@@ -60,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         return tempPlaces;
     }
 
+    //get details of park places from different resource arrays
     public ArrayList<Places> getParkPlaces () {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
@@ -75,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         return tempPlaces;
     }
 
+    //get details of museum places from different resource arrays
     public ArrayList<Places> getMuseumPlaces () {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();
@@ -90,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
         return tempPlaces;
     }
 
+    //get details of religious places from different resource arrays
     public ArrayList<Places> getReligiouPlaces () {
         ArrayList<Places> tempPlaces = new ArrayList<>();
         Resources res = getResources();

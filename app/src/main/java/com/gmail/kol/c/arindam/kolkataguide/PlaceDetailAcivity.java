@@ -14,7 +14,7 @@ public class PlaceDetailAcivity extends AppCompatActivity {
         setContentView(R.layout.activity_place_detail);
 
         Intent intent = getIntent();
-        Places place = intent.getParcelableExtra("Place");
+        Places place = intent.getParcelableExtra("Place"); // receive data from parent activity
 
         ImageView currentImage = findViewById(R.id.current_place_image);
         TextView currentAddress = findViewById(R.id.current_place_address);

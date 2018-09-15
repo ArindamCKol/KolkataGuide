@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- item arrays of all places image id -->
 <resources>
     <array name="heritage_places_image">
         <item>@drawable/victoria_memorial</item>

@@ -2,7 +2,7 @@
     <string name="app_name">Kolkata Guide</string>
     <string name="address">Address : %s</string>
     <string name="timing">Timing : %s</string>
-
+    <!-- string array of tab names -->
     <string-array name="tab_names">
         <item>Heritage</item>
         <item>Park</item>
@@ -10,6 +10,7 @@
         <item>Religious</item>
     </string-array>
 
+    <!-- string arrays of all places names -->
     <string-array name="heritage_places_name">
         <item>Victoria Memorial</item>
         <item>Jorasanko Thakur Bari</item>

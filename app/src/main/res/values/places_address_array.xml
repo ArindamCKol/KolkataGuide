@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- string arrays of all places addresses -->
 <resources>
     <string-array name="heritage_places_address">
         <item>1, Queens Way, Kolkata, West Bengal 700071</item>
